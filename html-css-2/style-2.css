@@ -1,0 +1,18 @@
+body{
+height: 100vh;
+margin: 0;
+}
+
+.header{
+  height: 10vh;
+  width: auto;
+  padding: auto;
+  background-color: aquamarine;
+}
+.title{
+  margin: auto;
+  display: block;
+  position: relative;
+  left: 10px;
+  top: 15px;
+}
