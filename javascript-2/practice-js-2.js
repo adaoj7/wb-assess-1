@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+const gitDefinition = 'git is how we save code prior to pushing it to github'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+const gitHubDefinition = 'git is cloud storage of code that ensures being able to work on it from anywhere as well as a place to save it outside of a local computer'
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+const init = {
+    description: 'git init initializes a repository',
+    code: 'git init'
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+const clone = {
+    description: 'clones an existing repository',
+    code: 'git clone'
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+const status = {
+    description: 'checks the status of the branch we are working on',
+    code: 'git status'
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,10 @@
 */
 
 //CODE HERE
-
+const add = {
+    description: 'adds the files that have changed and are ready to commit',
+    code: 'git add'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    description: 'saves the files that have been added to the local version of the repository',
+    code: 'git commit -m'
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +89,10 @@
 */
 
 //CODE HERE
-
+const addRemote = {
+    description: 'creates a version of the repository on github',
+    code: 'git remote add origin'
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +100,7 @@
 */
 
 //CODE HERE
+const push = {
+    description:'pushes the committed code to the repository',
+    code: 'git push'
+}

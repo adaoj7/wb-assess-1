@@ -2,12 +2,12 @@
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
 //CODE HERE
-
+const groceries = ['milk', 'sugar', 'sugar']
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
-
+const yourName = 'Adam'
 //////////////////STEP 3////////////////////
 /*
     Create a function called 'setGroceryListTitle' that takes in one parameter called 'x'. 
@@ -17,7 +17,9 @@
 */
 
 //CODE HERE
-
+const setGroceryListTitle =(x) => {
+    return `${x}'s Grocery List`
+}
 //////////////////STEP 4////////////////////
 /* 
     Create a function called 'addItem' that takes in one parameter called 'item'. 
@@ -27,7 +29,10 @@
 */
 
 //CODE HERE
-
+const addItem =(item) => {
+    groceries.push(item)
+    displayData()
+}
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
@@ -37,7 +42,10 @@
 */
 
 //CODE HERE
-
+const removeItem = (index) => {
+    groceries.splice(index,1)
+    displayData()
+}
 //////////////////STEP 6////////////////////
 /*
     Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
@@ -50,7 +58,15 @@
 */
 
 //CODE HERE
-
+const checkGroceryCount =() => {
+    if (groceries.length > 5) {
+        return 'That looks like a big trip'
+    } else if (groceries.length === 1){
+        return '1 item'
+    } else {
+       return `${groceries.length} items`
+    }
+}
 //////////////////Check out your code!////////////////////
 /*
     Open javascript-3/DO_NOT_EDIT/index.html in your browser.
